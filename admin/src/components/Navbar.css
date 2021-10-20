@@ -1,0 +1,148 @@
+.navbar {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  color: #f5f5f5;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  display: inline-flex;
+  padding-left: 250px;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: black;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 400ms ease-in-out;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: left;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.nav-menu-items a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  background-color: black;
+  color: #f5f5f5;
+  width: 100%;
+  height: 53px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: left;
+  align-items: left;
+}
+
+span {
+  margin-left: 16px;
+}
+
+.search {
+  display: inline-flex;
+  padding-left: 1250px;
+  min-height: 10px;
+  min-width: 50px;
+}
+.search2 {
+  display: inline-flex;
+  padding-left: 10px;
+  height: 40px;
+}
+.menubtn {
+  height: 40px;
+}
+.list {
+  justify-self: left;
+  padding-top: 0px;
+  color: white;
+  list-style: none;
+}
+.ilist {
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: left !important;
+}
+
+ul {
+  padding-left: 0rem;
+}
+
+.content {
+  margin-top: 80px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.content.active {
+  margin-left: 270px;
+  transition: 450ms ease-in-out;
+}
+
+.add {
+  top: 100px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.otbl {
+  padding: 50px 100px 100px 100px;
+}
+
+.tbl {
+  max-width: 100%;
+}
+.tbl_img {
+  max-width: 100px;
+  max-height: 100px;
+}
+#fileInput {
+  padding-left: 15px;
+}
+
+#preview {
+  width: 150px;
+  height: 120px;
+}
